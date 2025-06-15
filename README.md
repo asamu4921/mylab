@@ -13,5 +13,6 @@ cd Python-3.6.15, sudo ./configure --enable-optimizations
 sudo make -j$(nproc)   # Kompilasi dengan semua core CPU
 sudo make altinstall   # Pakai altinstall biar gak ganggu python default, python3.6 --version , sudo apt install -y python3.6-venv
 python3.6 -m ensurepip --upgrade
- )
+ ) atau lewat https://www.python.org/ftp/python/3.6.8/python-3.6.8-amd64.exe
+   
 
